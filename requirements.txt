@@ -1,4 +1,4 @@
-aiohttp==3.8.6
+
 aiohttp-retry==2.8.3
 aioredis==2.0.1
 aiosignal==1.3.1
@@ -11,7 +11,6 @@ basicauth==1.0.0
 boto3==1.28.78
 botocore==1.31.78
 certifi==2023.7.22
-cffi==1.15.1
 channels==4.0.0
 channels-redis==4.1.0
 charset-normalizer==3.2.0
@@ -30,14 +29,12 @@ django-filter==23.3
 django-storages==1.14.2
 djangorestframework==3.14.0
 expresspay-python-sdk==1.0.0
-frozenlist==1.4.0
 gunicorn==21.2.0
 hyperlink==21.0.0
 idna==3.4
 incremental==22.10.0
 jmespath==1.0.1
 msgpack==1.0.5
-multidict==6.0.4
 oauthlib==3.2.2
 packaging==23.2
 Pillow==10.0.0
@@ -70,5 +67,4 @@ tzdata==2023.3
 urllib3==2.0.4
 websockets==11.0.3
 whitenoise==6.6.0
-yarl==1.9.2
 zope.interface==6.0
