@@ -33,28 +33,28 @@ ALLOWED_HOSTS = ["*"]
 # Application definition
 
 INSTALLED_APPS = [
-    #Django Apps
+    # Django Apps
     "django.contrib.admin",
     "django.contrib.auth",
     "django.contrib.contenttypes",
     "django.contrib.sessions",
     "django.contrib.messages",
     "django.contrib.staticfiles",
-    #Local Apps
+    # Local Apps
     "accounts",
     "lostfound",
     "trip",
     "vehicle",
     "core",
-    #Third Party Apps
+    # Third Party Apps
     "rest_framework",
     "rest_framework.authtoken",
-    'allauth',
-    'allauth.socialaccount',
-    'allauth.socialaccount.providers.google',
-    'dj_rest_auth',
-    'storages',
-    
+    "allauth",
+    "allauth.socialaccount",
+    "allauth.socialaccount.providers.google",
+    "dj_rest_auth",
+    "storages",
+    "rest_framework_simplejwt",
 ]
 
 SITE_ID = 1
